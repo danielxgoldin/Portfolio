@@ -1,6 +1,6 @@
 body {
     /*Apply to the body of the project*/
-    color: 	lavender;
+    color: 	rgb(54, 24, 54);
     font-family: Arial, Helvetica, sans-serif;
 }
 /* apply styles to <header> */
@@ -60,23 +60,52 @@ header nav ol li{
     font-size: 22px;
 }
 
-/* Hero Style Start */
-.hero {
-    background-image: url("../images/hacker.jpg");
-    height: 600px;
+/* Html Style Start */
+html {
+    background-image: url("../images/portfolio.jpg") 
 }
-/* Hero Style End */
+/* Html Style End */
 
-.hero-form {
-    background-color: #fce138;
-    padding:20 px;
+.About-Me {
+    background-color: lavender;
+    width: fit-content;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;  
+}
+
+.Resume {
+  float: right;  
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid gold;
+  padding: 50px;
+  margin: 20px;
+}
+
+.My-Portfolio {
+    display: inline-block;
+    background-color: rgb(33, 13, 27);
+    width: 300px;
+    border: 15px solid rgb(110, 102, 56);
+    padding: 50px;
+    margin: 20px;
+}
+
+.My-Contact {
+    float: bottom; 
+    background-color: lightgrey;
     width: 500px;
-    color: #024e76;
+    border: 15px solid gold;
+    padding: 50px;
+    margin: 20px;
 }
 
-.hero-form {
-    ...
-    border-style: solid;
-    border-width: 3px;
-    border-color: #024e76;
-    }
+.boxed {
+    display: inline-block;
+    background-color: lightgrey;
+    width: 100px;
+    border: 15px solid blueviolet;
+    padding: 50px;
+    margin: 20px; 
+}
