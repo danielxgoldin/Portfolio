@@ -104,8 +104,8 @@ html {
 .boxed {
     display: inline-block;
     background-color: lightgrey;
-    width: 100px;
+    width: fit-content;
     border: 15px solid blueviolet;
     padding: 50px;
-    margin: 20px; 
+    margin: 25px; 
 }
