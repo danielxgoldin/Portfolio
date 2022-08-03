@@ -83,6 +83,11 @@ html {
   margin: 20px;
 }
 
+h2 {
+    width: 100%;
+    text-align:center;
+}
+
 .My-Portfolio {
     display: inline-block;
     background-color: rgb(33, 13, 27);
