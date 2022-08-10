@@ -70,9 +70,13 @@ header nav ol li{
 
 /* Html Style Start */
 html {
-    background-image: url("../images/portfolio.jpg") 
+    background-image: url("../images/portfolio.jpg")
 }
+
+
 /* Html Style End */
+
+
 
 .About-Me {
     background-color: lavender;
@@ -121,4 +125,10 @@ h2 {
     border: 15px solid blueviolet;
     padding: 50px;
     margin: 25px; 
+}
+
+.wrapper {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
 }
